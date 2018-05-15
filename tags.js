@@ -1,6 +1,6 @@
-var radius = 120;
+var radius = 320;
 var dtr = Math.PI/180;
-var d=300;
+var d=350;
 var mcList = [];
 var active = false;
 var lasta = 1;
