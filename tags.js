@@ -1,6 +1,6 @@
-var radius = 320;
+var radius = 120;
 var dtr = Math.PI/180;
-var d=350;
+var d=150;
 var mcList = [];
 var active = false;
 var lasta = 1;
@@ -218,7 +218,7 @@ function doPosition()
 		aA[i].style.left=mcList[i].cx+l-mcList[i].offsetWidth/2+'px';
 		aA[i].style.top=mcList[i].cy+t-mcList[i].offsetHeight/2+'px';
 		
-		aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+8+'px';
+		aA[i].style.fontSize=Math.ceil(4*mcList[i].scale/2)+8+'px';
 		
 		aA[i].style.filter="alpha(opacity="+100*mcList[i].alpha+")";
 		aA[i].style.opacity=mcList[i].alpha;

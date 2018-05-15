@@ -5,7 +5,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
 <title>吃什么</title>
 
 <meta name="author" content="Jquery-School" />
@@ -28,25 +28,22 @@ body {
     background: #fff;
     line-height: 43px;
     text-align: center;
-    margin: 200px auto 0;
+    margin: 120px auto 0;
     display: block;
     border: none;
     border-radius: 3px;
 }
 #tagsList {
-
+    height: 100px;
 	position: relative;
-
-	width:70%;
+	width:100%;
     text-align: center;
-	height: 450px;
-
-	margin: 240px auto 0;
+	margin: 180px auto 0;
 
 }
 
 #tagsList a {
-
+    font-size: 5px;
 	position: absolute;
 
 	top: 0px;
@@ -70,6 +67,9 @@ body {
 }
 .hide {
     display: none;
+}
+.clear {
+    clear: both;
 }
 
 </style>
@@ -128,6 +128,7 @@ body {
     <a href="javascript:;" title="北苑一楼">麻辣拌</a> 
     <a href="javascript:;" title="北苑一楼">苗老太</a> 
 </div>
+<div class="clear"></div>
 <p id="btn" type="button"> 吃什么</p>
 <div id="wte"></div>
 <script type="text/javascript">
